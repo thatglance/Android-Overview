@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_margin">8dp</dimen>
+    <dimen name="button_weight">1</dimen>
+    <dimen name="image_view_height">0dp</dimen>
+    <dimen name="image_view_weight">12</dimen>
+</resources>

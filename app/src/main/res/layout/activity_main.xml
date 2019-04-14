@@ -11,12 +11,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/chooseImageButton"
-            android:layout_margin="8dp"
-            android:layout_weight="1"/>
+            android:layout_margin="@dimen/button_margin"
+            android:layout_weight="@dimen/button_weight"/>
     <ImageView
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="12"
+            android:layout_height="@dimen/image_view_height"
+            android:layout_weight="@dimen/image_view_weight"
             android:id="@+id/imageView"
             android:contentDescription="@string/app_name"/>
 </LinearLayout>
